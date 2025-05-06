@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const config = require("./config");
 const beekeeperRouter = require("./beekeeper/router");
-const hiveRouter = require("./hive/router");
+const hiveRouter = require("./honey/router");
 const honeyRouter = require("./honey/router");
 const seoRouter = require("./seo/router");
 
