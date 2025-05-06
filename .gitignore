@@ -1,0 +1,15 @@
+# Logs
+*.log
+
+# Hive files
+express/hive/logs/*.json
+express/hive/files/*/*.bee
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.test
+
+yarn.lock
